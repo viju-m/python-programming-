@@ -1,4 +1,4 @@
->>> full_name = input("Please enter in a full name: ")
+>>> full_name = input("Please enter full name: ")
 Please enter in a full name: john smith
 >>> len(full_name) - full_name.count(' ')
 9
