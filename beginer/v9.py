@@ -24,8 +24,6 @@ void Nminelements(vector<int>list1, int N)
     for(int i = 0; i < final_list.size(); i++) 
     cout << final_list[i] << " "; 
 }  
-  
-// Driver code 
 int main() 
 { 
     vector<int> list1 = {4, 78, 34, 10,  
