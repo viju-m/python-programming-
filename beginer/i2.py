@@ -5,7 +5,7 @@ if string1 == 'x':
 else:
     string2 = input("Enter second string: ")
     if string1 == string2:
-        print("\nBoth strings are equal to each other.")
+        print("\nBoth strings r equal to each other.")
         print(string1,"==",string2);
     else:
         print("\nStrings are not equal.")
