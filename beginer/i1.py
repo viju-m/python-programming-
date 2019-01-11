@@ -12,13 +12,9 @@ int countOccurrences(string s, int K)
             c2++; // Count of 'b's 
             C += c1; // occurrence of "ab"s in string S 
         } 
-    } 
-  
-    
+    }     
     return C * K + (K * (K - 1) / 2) * c1 * c2; 
-} 
-  
-// Driver code 
+}  
 int main() 
 { 
     string S = "abcb"; 
